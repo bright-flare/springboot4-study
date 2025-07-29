@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot4-study
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/boot4study
+    username: myuser
+    password: secret
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    generate-ddl: true
+    show-sql: true
